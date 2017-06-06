@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestsResultsCache
+    LastClearTime="0001-01-01T00:00:00">
+    <TestClasses>
+        <TestClass>
+            <TestClassId>01p0Y00000Ee5ImQAJ</TestClassId>
+            <TestQueueId>7090Y0000005kQ2QAI</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L0Y000004fhavUAA</ApexLogId>
+                    <Name>mileageTriggerTest</Name>
+                    <Message>System.AssertException: Assertion Failed: Expected: Unsupported operation, Actual: Delete failed. First exception on row 0 with id a000Y00000D5Gx8QAF; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, MileageTrigger: execution of BeforeDelete
+
+caused by: System.NullPointerException: Attempt to de-reference a null object
+
+Trigger.MileageTrigger: line 2, column 1: []</Message>
+                    <StackTrace>Class.MileageTrackerTestSuite.mileageTriggerTest: line 14, column 1</StackTrace>
+                    <TestResultStatus>Fail</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p0Y00000Efy1GQAR</TestClassId>
+            <TestQueueId>7090Y0000005kPyQAI</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L0Y000004fhbdUAA</ApexLogId>
+                    <Name>testChangePasswordController</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p0Y00000Efy1IQAR</TestClassId>
+            <TestQueueId>7090Y0000005kQ3QAI</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L0Y000004fhbxUAA</ApexLogId>
+                    <Name>testForgotPasswordController</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p0Y00000Efy1KQAR</TestClassId>
+            <TestQueueId>7090Y0000005kQ0QAI</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L0Y000004fhbiUAA</ApexLogId>
+                    <Name>testSave</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p0Y00000Efy1CQAR</TestClassId>
+            <TestQueueId>7090Y0000005kQ1QAI</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L0Y000004fhbnUAA</ApexLogId>
+                    <Name>testSiteLoginController</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+        <TestClass>
+            <TestClassId>01p0Y00000Efy1EQAR</TestClassId>
+            <TestQueueId>7090Y0000005kPzQAI</TestQueueId>
+            <TestMethods>
+                <TestMethod>
+                    <ApexLogId>07L0Y000004fhbsUAA</ApexLogId>
+                    <Name>testRegistration</Name>
+                    <TestResultStatus>Pass</TestResultStatus>
+                </TestMethod>
+            </TestMethods>
+        </TestClass>
+    </TestClasses>
+</TestsResultsCache>
